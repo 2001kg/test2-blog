@@ -15,7 +15,7 @@
   <!-- Title -->
 	<hgroup>
 		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
+		<p>Published on {formatDate(data.meta.date)}</p>
 	</hgroup>
 
   <!-- Tags -->
@@ -33,7 +33,7 @@
 
 <style>
 	article {
-		max-inline-size: var(--size-content-3);
+		max-inline-size: var(--size-content-5);
 		margin-inline: auto;
 	}
 
@@ -48,12 +48,12 @@
 
 	.tags {
 		display: flex;
-		gap: var(--size-3);
+		gap: var(--size-4);
 		margin-top: var(--size-7);
 	}
 
 	.tags > * {
-		padding: var(--size-2) var(--size-3);
+		padding: var(--size-1) var(--size-1);
 		border-radius: var(--radius-round);
 	}
 </style>

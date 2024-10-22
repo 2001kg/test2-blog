@@ -30,9 +30,12 @@
 		height: 100%;
 		max-inline-size: 1440px;
 		display: grid;
-		grid-template-rows: auto 1fr auto;
+		grid-template-rows: auto fr auto;
 		margin-inline: auto;
 		padding-inline: var(--size-7);
+		font-family: var(--font-sans); /* Use Manrope as the primary font */
+    	color: var(--text-1); /* Text color */
+		align-items: center;
 	}
 
 	main {
